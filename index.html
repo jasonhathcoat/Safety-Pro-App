@@ -198,7 +198,7 @@
           </header>
           <main className="main">
             <div className="license-bar">
-              <input className="license-input" placeholder="Enter license key (e.g. SP-TEST-001)" value={licenseKey} onChange={e => setLicenseKey(e.target.value)} />
+              <input className="license-input" placeholder="Enter Your License Key" value={licenseKey} onChange={e => setLicenseKey(e.target.value)} />
               {licenseValid === true && <span className="license-status ls-valid">✓ VALID</span>}
               {licenseValid === false && <span className="license-status ls-invalid">✗ INVALID</span>}
             </div>
